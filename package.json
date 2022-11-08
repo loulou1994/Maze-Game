@@ -1,0 +1,12 @@
+{
+  "name": "mazegame-clone",
+  "version": "1.0.0",
+  "description": "Maze game originally made by TheCodeDepository author on github from which I got help taking a few pieces of logic ^^",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["javascript", "es6 class", "promise"],
+  "author": "Said Douidi",
+  "license": "ISC"
+}

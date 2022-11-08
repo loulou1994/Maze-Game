@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze Game inspired by Pickle Ricke Maze project</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="controls-container">
+      <select name="levels" id="game-levels" class="game-levels btn">
+        <option value="9">easy</option>
+        <option value="13">medium</option>
+        <option value="16">hard</option>
+      </select>
+      <button id="start" class="start-btn btn">Start</button>
+    </div>
+
+    <dialog id="dialog">
+      <div class="result-wrapper">
+        <p>Good Job! You made it to the exit space</p>
+        <p>You've made <span id="moves_element"></span> moves!</p>
+        <button id="playAgain" class="btn">Play Again</button>
+      </div>
+    </dialog>
+    <canvas id="canvas" class="cvs-size"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
